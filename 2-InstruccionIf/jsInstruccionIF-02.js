@@ -1,7 +1,31 @@
+/*Al ingresar una edad debemos informar solo si la persona es mayor de edad
+*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	//declaro variable
+	var edad;
+	//tomo la edad 
+		edad = document.getElementById("txtIdEdad").value;
+
+	//transformo a valores numericos por parseInt
+		edad = parseInt(edad);
+
+	if (edad>=18) 
+	{
+		alert("Sos mayor de edad");
+	}
+
+ 	alert("Fin");
+
+	
 	
 
-}//FIN DE LA FUNCIÓN
+}
+//txtIdEdad
+//FIN DE LA FUNCIÓN
+/*entrada
+ID
+parseInt
+if
+alert
+*/
